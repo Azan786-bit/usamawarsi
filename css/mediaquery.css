@@ -1,0 +1,434 @@
+@media only screen and (max-width: 1600px) {
+
+    body{
+        height: auto;
+    }
+    #shape, .shape{
+        display: block;
+    }
+    .rombus{
+        bottom: 6%;
+        right: 20%;
+        height: 70px;
+        width: 70px;
+        border: 5px solid #ee4949;
+    }
+    .circle2{
+        top: -30%;
+       border: 25px solid  #472a7b;
+    }
+    .circle-line{
+        right: 30%;
+        top: 25%;
+        height: 70px;
+        width: 70px;
+    }
+    .line{
+        width: 3px;
+    }
+    #nav-btn{
+        right: 50px;
+    }
+    #introtxt{
+    font-size: 40px;
+    margin: 0;
+    padding: auto;
+
+    width: 100%;
+    
+    }
+    #intro{
+        padding: 0;
+        padding-top: 100px;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        
+    }
+    #introtxt h3{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    #introtxt h1{
+        font-size: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    #introimg{
+        height: 350px;
+        width: 350px;
+       right: 30%;
+       top: -30%;
+        padding-top: 28px;
+    }
+    #introimg img{
+
+        height: 300px;
+        width: 300px;
+    }
+    #cv, #skill_btn{
+        width: 150px;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    #skill{
+        top: 100px;
+        height: auto;
+        width: auto;
+    }
+    #navbar{
+        height: auto;
+        width: 100%;
+    }
+    #about{
+        height: 100%;
+    }
+    #ghy{
+        margin-bottom: 50px;
+        left: 2rem;
+       
+    }
+    #abtimg{
+        height: 350px;
+        width: 350px;
+    }
+    #abtimg img{
+        height: 320px;
+        width: 320px;
+    }
+    .hoverlay h4{
+        font-size: 22px;
+    }
+    .hoverlay p{
+        display: block;
+    }
+    .hoverlay .btn{
+        width: 100px;
+    }
+    #show-project{
+        height: auto;
+    }
+    #show-project img {
+        width: 500px;
+    }
+    #spbackbtn{
+        z-index: 130;
+    }
+    #ambtn0, #ambtn1{
+        margin-top: 40px;
+    }
+    #contact{
+        left: 30%;
+        top: 30%;
+    }
+    
+}
+@media only screen and (max-width: 993px) {
+
+    body{
+        height: auto;
+    }
+    #shape, .shape{
+        display: none;
+    }
+    #nav-btn{
+        right: 50px;
+    }
+    #introtxt{
+    font-size: 40px;
+    margin: 0;
+    padding: auto;
+    left: 10%;
+    width: 100%;
+    }
+    #intro{
+        padding: 0;
+        padding-top: 100px;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        
+    }
+    #introtxt h3{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    #introtxt h1{
+        font-size: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    #introimg{
+        height: 350px;
+        width: 350px;
+       right: 60px;
+       top: -80px;
+        padding-top: 28px;
+    }
+    #introimg img{
+
+        height: 300px;
+        width: 300px;
+    }
+    #cv, #skill_btn{
+        width: 150px;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    #skill{
+        top: 100px;
+        height: auto;
+        width: auto;
+    }
+    #navbar{
+        height: auto;
+        width: 100%;
+    }
+    #about{
+        height: 100%;
+    }
+    #abtimg{
+        display: none;
+    }
+    #ghy{
+        position: fixed;
+        left: 0;
+    }
+    #mb{
+      margin-top: 40%;
+    }
+    .hoverlay h4{
+        font-size: 22px;
+    }
+    
+    .hoverlay .btn{
+        width: 80px;
+    }
+    #show-project{
+        height: auto;
+    }
+    #show-project img {
+        width: 500px;
+    }
+    #spbackbtn{
+        z-index: 130;
+    }
+    #ambtn0, #ambtn1{
+        margin-top: 40px;
+    }
+    #contact{
+        left: 25%;
+    }
+    
+}
+@media only screen and (max-width: 769px) {
+
+    body{
+        height: auto;
+    }
+    #shape, .shape{
+        display: none;
+    }
+    #nav-btn{
+        right: 50px;
+    }
+    #introtxt{
+    font-size: 40px;
+    margin: 0;
+    padding: auto;
+    left: 25%;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    }
+    #intro{
+        padding: 10px;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        
+    }
+    #introtxt h3{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    #introtxt h1{
+        font-size: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    #introimg{
+        top: 85%;
+        right:50%;
+        padding-top: 28px;
+    }
+    #introimg img{
+        
+    }
+    #skill{
+        height: auto;
+        width: auto;
+        z-index: 3;
+    }
+    #navbar{
+        height: auto;
+        width: 100%;
+    }
+    #about{
+        height: 100%;
+    }
+    #abtimg{
+        display: none;
+    }
+    .ghy{
+        font-size: 30px;
+        margin: 0;
+    }
+    #mb{
+        margin-top: 65%;
+      }
+    #show-project{
+        height: auto;
+    }
+    #show-project img {
+        width: 500px;
+    }
+    #spbackbtn{
+        z-index: 130;
+    }
+    #ambtn0, #ambtn1{
+        margin-top: 40px;
+    }
+    #contact{
+        left: 20%;
+    }
+    .hoverlay p{
+        display: none;
+    }
+    #backbtn{
+        z-index: 10;
+    }
+    
+}
+@media only screen and (max-width: 577px) {
+
+    body{
+        height: auto;
+    }
+    #shape, .shape{
+        display: none;
+    }
+    #nav-btn{
+        right: -10%;
+    }
+    #introtxt{
+    left: 0%;
+    width: 100%;
+    }
+    #intro{
+        padding-left: 10%;
+    }
+    #introimg{
+    right:15%;
+    }
+    #skill{
+        height: auto;
+        
+    }
+    #navbar{
+        height: auto;
+        width: auto;
+    }
+    #about{
+        height: 100%;
+        width: 100%;
+    }
+    #abtimg{
+        display: none;
+    }
+    #mb{
+        margin-top: 80%;
+      }
+    #show-project{
+        height: auto;
+    }
+    #show-project img {
+        width: 500px;
+    }
+    #spbackbtn{
+        z-index: 130;
+    }
+    #backbtn{
+        top: 5%;
+        left: 5%;
+    }
+    #ambtn0, #ambtn1{
+        margin-top: 40px;
+    }
+    #contact{
+        top: 20%;
+        left: 5%;
+    }
+    .hoverlay p{
+        display: none;
+    }
+    #backbtn{
+        z-index: 10;
+    }
+    
+}
+@media only screen and (max-width: 320px) {
+    body{
+        height: auto;
+    }
+    #shape{
+        display: none;
+    }
+    #nav-btn{
+        top: -100px;
+        right: -250px;
+    }
+    #introtxt{
+    font-size: 40px;
+    margin: 0;
+    padding: auto;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+    }
+    #intro{
+        padding: 10px;
+        height: auto;
+        width: 600px;
+        
+    }
+    #introtxt h3{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    #introtxt h1{
+        font-size: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    #introimg{
+    
+        right: 12%;
+    }
+    #skill{
+        height: auto;
+        width: auto;
+    }
+    #navbar{
+        height: auto;
+        width: 600px;
+    }
+    #about{
+        height: auto;
+    }
+   
+    }
