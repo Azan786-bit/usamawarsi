@@ -527,5 +527,24 @@
       #social_icon{
           margin-top: 10px;
       }
+      #skill
+      {
+          height: auto;
+          width: 90vw;
+      }
+      .progress{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+      }
+      .progress:after,.progress .progress-bar{
+        border: 5px solid #f2f5f5;
+      }
+      .progress .progress-value,.bars h6{
+        font-size: 15px;
+      }
+      .bars{
+        margin:15px 0;
+      }
    
     }
