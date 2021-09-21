@@ -380,7 +380,7 @@
     }
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
     body, #intro header, #intro, #navbar, #about, #contact, #skill, #project, #show-project  {
         height: auto;
         width: 100vw;
