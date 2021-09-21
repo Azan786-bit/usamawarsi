@@ -337,6 +337,10 @@ animation: rotate-circle 30s ease infinite;
       -webkit-text-fill-color: transparent;
       z-index: 2;
     }
+    #si{
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
     #contact h4{
       color: white;
       margin-top: 20px;
