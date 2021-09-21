@@ -238,7 +238,7 @@
     font-size: 40px;
     margin: 0;
     padding: auto;
-    left: 0%;
+    left: 25%;
     text-align: center;
     width: 100%;
     z-index: 2;
@@ -262,7 +262,7 @@
     }
     #introimg{
         top: 85%;
-        right:0%;
+        right:50%;
         padding-top: 28px;
     }
     #introimg img{
@@ -380,19 +380,68 @@
     }
     
 }
-@media only screen and (max-width: 400px) {
-    body{
+@media only screen and (max-width: 320px) {
+    body, #intro header, #intro, #navbar, #about, #contact, #skill, #project, #show-project  {
         height: auto;
+        width: 100vw;
+   
+    }
+    #logo a img{
+        height: 50px;
+        width: 100px;
+        margin-top: 10px;
     }
     #shape{
         display: none;
     }
     #nav-btn{
-        top: -100px;
-        right: -250px;
+        top: 0px;
+        right:0px;
+    }
+    #nav-btn a,#nav-bt a, #backbtn, #spbackbtn{
+        font-size: 40px;
+    }
+    #spbackbtn, #backbtn{
+        left: 20px;
+        top: 20px;
+    }
+    #info_col h1{
+        font-size: 40px;
+    }
+    nav ul li a{
+        font-size: 23px;
+    }
+    nav ul li a:hover{
+        font-size: 40px;
+    }
+    #navbar{
+        padding:30vh 0;
+    }
+    #ghy p{
+        font-size: 15px;
+        background-color: #252525;
+    }
+    #mb_btn{
+        width: 140px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    #mb{
+        margin-top: 145%;
+    }
+    #ambtn0, #ambtn1{
+        width: 100px;
+        font-size: 15px;
+        margin: 40px 5px;
+    }
+    #box{
+        text-align: left;
+    }
+    #box h4{
+        font-size: 18px;
     }
     #introtxt{
-    font-size: 40px;
+    font-size: 20px;
     margin: 0;
     padding: auto;
     left: 0%;
@@ -400,35 +449,83 @@
     width: 100%;
     }
     #intro{
-        padding: 10px;
-        height: auto;
-        width: 600px;
-        
+        padding: 10px;  
     }
     #introtxt h3{
-        font-size: 30px;
+        font-size: 20px;
         padding: 0;
         margin: 0;
     }
     #introtxt h1{
-        font-size: 60px;
+        font-size: 40px;
         padding: 0;
         margin: 0;
     }
     #introimg{
-    
-        right: 12%;
+    height: 250px;
+    width: 250px;
+        right: 5%;
+        padding: 16px;
     }
+    #introimg img{
+        height: 220px;
+        width: 220px;
+          
+        }
     #skill{
         height: auto;
         width: auto;
     }
-    #navbar{
-        height: auto;
-        width: 600px;
+    #cv, #skill_btn{
+        width: 125px;
+        font-size: 14px;
+        padding-top: 10px;
+        margin-top: 20px;
     }
-    #about{
-        height: auto;
+    #cv:hover, #skill_btn:hover{
+        transform: scale(1.1);
     }
+    #show-project p{
+        font-size: 15px;
+        margin: 0px;
+        text-align: justify;
+      }
+      .innercon{
+          margin-top: 0;
+      }
+      #show-project p{
+        font-size: 15px;
+        margin: 0;
+        text-align: justify;
+      }
+      #show-project img {
+        width: 95vw;
+      }
+      #contact{
+          top: 20%;
+          height: auto;
+          width: 90vw;
+      }
+      #contact h4{
+          font-size: 25px;
+      }
+      #cc-btn{
+          margin-left: 75%;
+      }
+      .cp{
+          font-size: 15px;
+          text-align: justify;
+      }
+      #contact #si{
+          font-size: 15px;
+          margin-bottom: 10px;
+      }
+      #social_icon a {
+          font-size: 30px;
+          padding:  20px 15px;
+      }
+      #social_icon{
+          margin-top: 10px;
+      }
    
     }
